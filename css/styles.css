@@ -16,6 +16,7 @@ body {
 h2, span, p {
     font-family: 'Playfair Display', sans-serif;
     color: var(--lightlilac);
+    text-align: center;
   }
 
 p{

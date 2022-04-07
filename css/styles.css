@@ -1,0 +1,84 @@
+:root {
+    --lightpurple: #e0bcdd;
+    --darkpurple: #806980;
+    --lightlilac: #c8a2c8;
+    --lightpink: #b3739a;
+    --darkblue: #525f7f;
+    --mediumpurple: #7952B3;
+    --darkbg: #30243d;
+  }
+
+  body {
+    padding: 2%;
+    background-color: #30243d;
+  }
+
+ h2, span, p {
+    font-family: 'Playfair Display', sans-serif;
+    color: var(--lightlilac);
+  }
+
+p{
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+span{
+  font-size: 25px;
+}
+
+.navbar  {
+    background-color: var(--mediumpurple);
+}
+
+.navbar-brand {
+    font-family: 'Love Light', sans-serif;
+    color: var(--darkbg);
+    font-size: 70px;
+  }
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.col{
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+main .phrases-container{
+    width: 100%;
+    margin-top: 8%;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+
+main .phrases-container button {
+    width: 25%;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+  
+    font-size: 1.7em;
+    font-weight: 600;
+  
+    background-color: var(--lightpurple);
+    color: var(--lightpink);
+  
+    transition: 0.3s ease-in-out;
+  }
+
+main .phrases-container button:hover {
+    border-radius: 2rem;
+    color: var(--lightpurple);
+    background-color: var(--lightpink);
+  }
